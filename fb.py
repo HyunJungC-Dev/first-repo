@@ -6,6 +6,8 @@ def do_fizzbuzz():
             print(curr," : fizzbuzz")
         elif curr % 3 == 0:
             print(curr, " : fizz")
+        elif curr % 5 == 0:
+            print(curr, " : buzz")
 
         curr += 1
         
