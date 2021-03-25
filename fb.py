@@ -10,6 +10,7 @@ def do_fizzbuzz():
             print(curr, " : buzz")
 
         curr += 1
-        
 
-do_fizzbuzz()
+
+if __name__ == "__main__":
+    do_fizzbuzz()
