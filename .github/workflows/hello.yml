@@ -1,8 +1,5 @@
-/* 워크 클로우 이름 */
 name: Hello
 
-/* 이벤트 설정 
-main 브랜치에 push가 일어나면 아래 잡을 수행하라*/
 on:
   push:
     branches: [main]
